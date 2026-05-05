@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saurabh - Web Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <!-- <a href="#home" class="logo">
+                    <img src="logo.png" alt="Portfolio Logo">
+                </a> -->
+                <div class="logo">Saurabh Shukla</div>
+                <ul class="nav-menu">
+                    <!-- <li><a href="#home" class="nav-link">Home</a></li> -->
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">CV</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="https://drive.google.com/file/d/1ANYHdpwfeDwguRBAgFUtnkSckug-OfbU/view?usp=drive_link" target="_blank">View CV</a></li>
+                            <li><a href="https://drive.google.com/uc?export=download&id=1ANYHdpwfeDwguRBAgFUtnkSckug-OfbU">Download CV</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <!-- <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <p class="hero-tag">Associate Software Engineer · 0–1 Year Experience</p>
+                <h1>Hi, I'm Saurabh Shukla</h1>
+                <p class="hero-headline">An associate software engineer passionate about building clean, responsive web experiences using HTML, CSS & JavaScript.</p>
+                <p class="hero-subline">Early in my journey, but committed to growing fast — I bring curiosity, consistency, and a genuine love for writing code that solves real problems.</p>
+                <div class="hero-actions">
+                    <a href="#about" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Hero Section -->
+    <div id="hero">
+        <div class="hero-tag">👋 Available for work</div>
+        <h1>Hi, I'm <span>Saurabh Shukla</span>.<br/>I build things for the web.</h1>
+        <p>Full-stack developer passionate about crafting clean, performant, and user-friendly digital experiences.</p>
+        <div class="hero-btns">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-outline">Get In Touch</a>
+        </div>
+        <!-- <div class="scroll-hint">Scroll to explore</div> -->
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <!-- <div class="about-image">
+                    <img src="https://via.placeholder.com/200" alt="Avatar">
+                </div> -->
+                <div class="about-text">
+                    <p>I'm a full-stack developer with a love for building products that make people's lives easier. I specialize in modern JavaScript, React, and Node.js ecosystems.</p>
+                    <p>When I'm not coding, you'll find me exploring open-source projects, reading about system design, or hiking in the mountains.</p>
+                    <p>I believe great software is built at the intersection of clean code, thoughtful design, and deep user empathy.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <p class="projects-intro">Here are some featured projects that highlight my web development skills in UI design, JavaScript interactivity, and responsive layouts.</p>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>AI Email Assistant</h3>
+                    <p>An intelligent web-based application that generates professional emails using AI. Built with Flask and Google Gemini API, it helps users quickly create well-structured emails with different tones and purposes.</p>
+                    <a href="https://github.com/shuklasaurabh98/AI_Email_Assistant" class="project-link" target="_blank">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>House Price Prediction</h3>
+                    <p>A web-based application that predicts house prices based on property details and city using a machine learning model.</p>
+                    <a href="https://github.com/shuklasaurabh98/House_Price_Prediction" class="project-link" target="_blank">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>support-triage-agent</h3>
+                    <p>A Python-based support ticket triage system for HackerRank, Claude, and Visa support issues. It classifies incoming tickets, retrieves relevant support documentation, and generates structured responses using a local Ollama LLM with rule-based fallback handling.</p>
+                    <a href="https://github.com/shuklasaurabh98/support-triage-agent" class="project-link" target="_blank">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Quiz Application</h3>
+                    <p>An engaging quiz app with timed questions, score tracking, and instant feedback built using JavaScript and dynamic DOM updates.</p>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" class="skill-logo">
+                    <h3>JAVA</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL" class="skill-logo">
+                    <h3>SQL/MySQL</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" class="skill-logo">
+                    <h3>HTML/CSS</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="skill-logo">
+                    <h3>PYTHON</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2103/2103633.png" alt="AI Brain" class="skill-logo">
+                    <h3>AI</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-intro">I'd love to hear from you. Send me a message!</p>
+            <div class="contact-links">
+                <a href="mailto:shuklapbh1112@gmail.com" class="btn btn-contact">Email Me</a>
+                <a href="https://www.linkedin.com/in/saurabh-shukla-79a33a188/?" class="btn btn-contact" target="_blank">LinkedIn</a>
+                <a href="https://github.com/shuklasaurabh98" class="btn btn-contact" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; @2026 Saurabh. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</body>
+</html>
